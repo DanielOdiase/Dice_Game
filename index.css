@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    text-align: center;
+    line-height : 30px;
+   
+}
+#diceGame{
+    display: flex;
+    width:100%;
+    justify-content:center;
+    gap:80px;
+    
+}
+#numbers{
+    font-size: 40px;
+    background-color: #ffd3b6;
+    padding: 15px 20px;
+    border-radius: 5px;
+
+}
+#numbers2{
+    font-size: 40px;
+    background-color: #ffd3b6;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+button{
+    
+    background-color: #ff8b94;
+    color: snow;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+#player-id{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#restartGame{
+    display: none;
+    margin:30px auto;
+    padding:10px 25px;
+    
+}
+#rollDice{
+    display: block;
+    margin:30px auto;
+    padding:10px 25px;
+}
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
